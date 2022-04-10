@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1649617722984" clover="3.2.0">
+  <project timestamp="1649617722985" name="All files">
+    <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6" elements="21" coveredelements="21" complexity="0" loc="11" ncloc="11" packages="1" files="1" classes="1"/>
+    <file name="Array.ts" path="C:\Users\ekinc\repos\product-list\src\base\extensions\Array.ts">
+      <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6"/>
+      <line num="10" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="12" count="10" type="cond" truecount="1" falsecount="0"/>
+      <line num="13" count="8" type="stmt"/>
+      <line num="16" count="10" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="21" count="8" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="25" count="2" type="stmt"/>
+      <line num="26" count="10" type="stmt"/>
+      <line num="27" count="10" type="cond" truecount="2" falsecount="0"/>
+    </file>
+  </project>
+</coverage>
