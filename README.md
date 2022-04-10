@@ -6,9 +6,9 @@
 pnpm install
 ```
 
-```
-Add an .env file (.env.local etc.) that includes VUE_APP_PRODUCT_API_URL and VUE_APP_PRODUCT_API_TOKEN keys.
-```
+
+* Add an .env file (.env.local etc.) that includes VUE_APP_PRODUCT_API_URL and VUE_APP_PRODUCT_API_TOKEN keys.
+
 
 ### Compiles and hot-reloads for development
 
