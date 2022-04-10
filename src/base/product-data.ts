@@ -1,9 +1,9 @@
 import ProductModel from '@/models/productModel';
 import { service } from './service';
 
+const url = process.env.VUE_APP_PRODUCT_API_URL;
+const token = process.env.VUE_APP_PRODUCT_API_TOKEN;
 const products: ProductModel[] = [];
-const url = 'https://teknasyon.netlify.app/.netlify/functions/products';
-const token = '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';
 
 export async function getAllProducts(): Promise<ProductModel[]> {
     if (!products.length) {

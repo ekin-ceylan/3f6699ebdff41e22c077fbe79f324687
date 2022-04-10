@@ -7,7 +7,7 @@
         pagination(v-model="page" :page-count="pageCount").col-7.col-lg-6.offset-lg-1.text-right
     .row.py-4
         .col-6.px-1.px-sm-3.py-2(v-for="(product, index) in pagedProducts" :key="product.id")
-            product-card(:product="pagedProducts[index]").rounded.bg-white
+            product-card(:product="pagedProducts[index]").rounded.bg-white.h-100
         .col-12.text-center(v-show="noProductInfo") No Product Found!
         .col-12.text-center.mt-5(v-show="isBusy.value")
             b-spinner

@@ -2,7 +2,7 @@
     .product.d-flex.text-center.text-lg-left.flex-column.flex-lg-row.align-items-top.py-2.px-0.px-sm-2(v-if="product")
         router-link(:to="{ name: productRouteName, params: { id: product.id } }" )
             img(:src="image.src" :alt="image.alt" ).bg-white
-        .d-flex.flex-column.pt-2.pt-lg-0.pl-lg-2
+        .d-flex.flex-column.pt-2.pt-lg-0.pl-lg-2.flex-grow-1
             router-link(:to="{ name: productRouteName, params: { id: product.id } }" ).mb-2.text-decoration-none
                 h3.mb-0 {{ product.title }}
             p.detail.mb-auto
