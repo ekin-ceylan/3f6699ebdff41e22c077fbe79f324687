@@ -1,0 +1,13 @@
+$main: #f7f7f7 !default;
+$main2: #ececec !default;
+$header: #7e7e7e !default;
+
+$theme-colors: () !default;
+$theme-colors: map-merge(
+    (
+        'main': $main,
+        'main2': $main2,
+        'header': $header,
+    ),
+    $theme-colors
+);
