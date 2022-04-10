@@ -1,5 +1,5 @@
 import ProductModel from '@/models/productModel';
-import { service } from './service';
+import service from './service';
 
 const url = process.env.VUE_APP_PRODUCT_API_URL;
 const token = process.env.VUE_APP_PRODUCT_API_TOKEN;

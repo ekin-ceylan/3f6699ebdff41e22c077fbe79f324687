@@ -3,7 +3,7 @@
 .container(v-if="product")
     .row.py-5
         .col-12.col-lg-6.text-center.py-3.py-lg-0.bg-white
-            img(:src="product.image.src")
+            img(:src="product.image.src").mw-100
         .col-12.col-lg-6.py-3.py-lg-0
             h2 {{product.title}}
             p {{ price }}

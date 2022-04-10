@@ -1,20 +1,6 @@
-const isBusy = {
-    get value(): boolean {
-        return this.requests > 0;
-    },
-    addRequest() {
-        this.requests++;
-    },
+import isBusy from './isBusy';
 
-    removeRequest() {
-        this.requests--;
-        this.requests = Math.max(0, this.requests);
-    },
-
-    requests: 0,
-};
-
-async function service(url: string, options?: RequestInit) {
+export default async function service(url: string, options?: RequestInit) {
     isBusy.addRequest();
 
     const response = await fetch(url, options);
@@ -27,6 +13,3 @@ async function service(url: string, options?: RequestInit) {
     const err = await response.text();
     return Promise.reject(new Error(err));
 }
-
-export default isBusy;
-export { service };

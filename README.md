@@ -27,3 +27,7 @@ pnpm run build
 ```
 pnpm run test
 ```
+
+```
+For test coverage results, see the index.html file from coverage/lcov-report directory
+```

@@ -30,7 +30,7 @@ import { getAllProducts } from '@/base/product-data';
 import ProductModel from '@/models/productModel';
 import Pagination from '@/components/Pagination.vue';
 import ProductCard from '@/components/ProductCard.vue';
-import isBusy from '@/base/service';
+import isBusy from '@/base/isBusy';
 
 @Component({
     components: {
